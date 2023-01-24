@@ -15,7 +15,7 @@
         sum += number;
     });
     
-    console.log(sum/10); // Här printar vi ut varablen sum och delar den på antalet nummer för att få ut medelvärdet
+    document.write(sum/10); // Här printar vi ut varablen sum och delar den på antalet nummer för att få ut medelvärdet
 </script>
 </body>
 </html>

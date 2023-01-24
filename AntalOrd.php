@@ -8,18 +8,19 @@
 </head>
 <body>
 <script>
-    let string = ("Yo! Fabian Is Dugly");
-    let words = 0;
 
-    array = string.split(" ");
+    let string = ("David är bäst (:"); // Sätter en variabel string till en text
+    let words = 0; // skapar en variabel words med värdet 0
 
-    array.forEach(Number => {
+    array = string.split(" "); // Sätter texten i en array för att sen kunna använda arrayn och räkna antalet mellanslag i texten
+
+    array.forEach(Number => { // Skapar en foreach som lägger till 1 till variablen words för varje ord i arrayn.
         words += 1;
     });
 
-    console.log(words);
+    document.write(words); // printar ut words variablen
 
 
 </script>
 </body>
-</html>l
+</html>

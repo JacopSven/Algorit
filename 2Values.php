@@ -13,7 +13,7 @@
         return val1 + val2;
     }
 
-    console.log(plus(1,2)); // Detta printar det i konsolen
+    document.write(plus(1,2)); // Detta skriver ut svaret
 
 </script>
 </body>

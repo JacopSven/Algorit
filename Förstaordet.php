@@ -15,6 +15,6 @@
     }
 
     document.write(först("Hej Mitt Namn Är Jacob")); // Skriver ut det första ordet ur stringen med hjälp av funktionen
-</script>
+</script> 
 </body>
 </html>
